@@ -220,7 +220,7 @@ void print_state(stringstream& sstr, const board& b, double ox, double oy, doubl
             double height = 12.0;
             if (abs(x - x2) == 1) {
               width = 12.0;
-              height = 8.0;
+              height = 6.0;
             }
             sstr << "<rect x=\"" << (ox + 0.5 * ((x + x2) * 30.0 - width) * scale) << "\" y=\"" << (oy + 0.5 * ((y + y2) * 30.0 - height) * scale ) << "\" width=\"" << (scale * width) << "\" height=\"" << (scale * height) << "\" fill=\"" << color_map[b.content[x][y]] << "\" />" << endl;
           }

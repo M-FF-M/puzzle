@@ -1,0 +1,482 @@
+<svg version="1.1" baseProfile="full" width="610.000" height="640.000" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grad1">
+<stop offset="0%" style="stop-color:#99cc00;stop-opacity:1" />
+<stop offset="50%" style="stop-color:#ffcc00;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#cc0000;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect x="265.000" y="105.000" width="200.000" height="30"  fill="url(#grad1)" />
+<rect x="287.200" y="105.000" width="2" height="30"  fill="black" />
+<path d="M288.200 100.000 L278.200 90.000 L298.200 90.000 L288.200 100.000 Z" fill="black" />
+<text x="265.000" y="70.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Difficulty</text>
+<text x="265.000" y="155.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Easy</text>
+<text x="365.000" y="155.000" text-anchor="middle" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Medium</text>
+<text x="465.000" y="155.000" text-anchor="end" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Hard</text>
+<circle cx="45.147" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="276.985" r="15.000" fill="#333333" />
+<path d="M49.390 73.338 L57.875 81.823 L62.118 77.581 L53.632 69.095 L49.390 73.338 Z" fill="#ff3399"/>
+<path d="M91.816 73.338 L100.302 81.823 L104.544 77.581 L96.059 69.095 L91.816 73.338 Z" fill="#ffccff"/>
+<path d="M49.390 98.794 L53.632 103.037 L62.118 94.551 L57.875 90.309 L49.390 98.794 Z" fill="#ff3399"/>
+<path d="M49.390 73.338 L57.875 81.823 L62.118 77.581 L53.632 69.095 L49.390 73.338 Z" fill="#ff3399"/>
+<path d="M49.390 115.765 L57.875 124.250 L62.118 120.007 L53.632 111.522 L49.390 115.765 Z" fill="#ff3399"/>
+<path d="M49.390 98.794 L53.632 103.037 L62.118 94.551 L57.875 90.309 L49.390 98.794 Z" fill="#ff3399"/>
+<path d="M113.029 77.581 L117.272 81.823 L125.757 73.338 L121.515 69.095 L113.029 77.581 Z" fill="#ffccff"/>
+<path d="M113.029 94.551 L121.515 103.037 L125.757 98.794 L117.272 90.309 L113.029 94.551 Z" fill="#ffccff"/>
+<path d="M91.816 73.338 L100.302 81.823 L104.544 77.581 L96.059 69.095 L91.816 73.338 Z" fill="#ffccff"/>
+<path d="M113.029 77.581 L117.272 81.823 L125.757 73.338 L121.515 69.095 L113.029 77.581 Z" fill="#ffccff"/>
+<path d="M49.390 141.220 L53.632 145.463 L62.118 136.978 L57.875 132.735 L49.390 141.220 Z" fill="#ff3399"/>
+<path d="M49.390 115.765 L57.875 124.250 L62.118 120.007 L53.632 111.522 L49.390 115.765 Z" fill="#ff3399"/>
+<path d="M49.390 141.220 L53.632 145.463 L62.118 136.978 L57.875 132.735 L49.390 141.220 Z" fill="#ff3399"/>
+<path d="M155.456 77.581 L159.698 81.823 L168.184 73.338 L163.941 69.095 L155.456 77.581 Z" fill="#0033cc"/>
+<path d="M155.456 94.551 L163.941 103.037 L168.184 98.794 L159.698 90.309 L155.456 94.551 Z" fill="#0033cc"/>
+<path d="M155.456 77.581 L159.698 81.823 L168.184 73.338 L163.941 69.095 L155.456 77.581 Z" fill="#0033cc"/>
+<path d="M134.243 115.765 L142.728 124.250 L146.971 120.007 L138.485 111.522 L134.243 115.765 Z" fill="#ffccff"/>
+<path d="M113.029 94.551 L121.515 103.037 L125.757 98.794 L117.272 90.309 L113.029 94.551 Z" fill="#ffccff"/>
+<path d="M197.882 77.581 L202.125 81.823 L210.610 73.338 L206.368 69.095 L197.882 77.581 Z" fill="#ffffff"/>
+<path d="M197.882 94.551 L206.368 103.037 L210.610 98.794 L202.125 90.309 L197.882 94.551 Z" fill="#ffffff"/>
+<path d="M197.882 77.581 L202.125 81.823 L210.610 73.338 L206.368 69.095 L197.882 77.581 Z" fill="#ffffff"/>
+<path d="M176.669 115.765 L185.154 124.250 L189.397 120.007 L180.912 111.522 L176.669 115.765 Z" fill="#0033cc"/>
+<path d="M155.456 94.551 L163.941 103.037 L168.184 98.794 L159.698 90.309 L155.456 94.551 Z" fill="#0033cc"/>
+<path d="M134.243 115.765 L142.728 124.250 L146.971 120.007 L138.485 111.522 L134.243 115.765 Z" fill="#ffccff"/>
+<path d="M197.882 94.551 L206.368 103.037 L210.610 98.794 L202.125 90.309 L197.882 94.551 Z" fill="#ffffff"/>
+<path d="M197.882 136.978 L206.368 145.463 L210.610 141.220 L202.125 132.735 L197.882 136.978 Z" fill="#0033cc"/>
+<path d="M176.669 115.765 L185.154 124.250 L189.397 120.007 L180.912 111.522 L176.669 115.765 Z" fill="#0033cc"/>
+<path d="M197.882 136.978 L206.368 145.463 L210.610 141.220 L202.125 132.735 L197.882 136.978 Z" fill="#0033cc"/>
+<circle cx="45.147" cy="64.853" r="11.000" fill="#ff3399" />
+<text x="45.147" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="87.574" cy="64.853" r="11.000" fill="#ffccff" />
+<text x="87.574" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="66.360" cy="86.066" r="11.000" fill="#ff3399" />
+<text x="66.360" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="107.279" r="11.000" fill="#ff3399" />
+<text x="45.147" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="130.000" cy="64.853" r="11.000" fill="#ffccff" />
+<text x="130.000" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="108.787" cy="86.066" r="11.000" fill="#ffccff" />
+<text x="108.787" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="66.360" cy="128.492" r="11.000" fill="#ff3399" />
+<text x="66.360" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="149.706" r="11.000" fill="#ff3399" />
+<text x="45.147" y="149.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="172.426" cy="64.853" r="11.000" fill="#0033cc" />
+<text x="172.426" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="86.066" r="11.000" fill="#0033cc" />
+<text x="151.213" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="130.000" cy="107.279" r="11.000" fill="#ffccff" />
+<text x="130.000" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="214.853" cy="64.853" r="11.000" fill="#ffffff" />
+<text x="214.853" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="86.066" r="11.000" fill="#ffffff" />
+<text x="193.640" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="172.426" cy="107.279" r="11.000" fill="#0033cc" />
+<text x="172.426" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="128.492" r="11.000" fill="#ffccff" />
+<text x="151.213" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="214.853" cy="107.279" r="11.000" fill="#ffffff" />
+<text x="214.853" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="128.492" r="11.000" fill="#0033cc" />
+<text x="193.640" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="214.853" cy="149.706" r="11.000" fill="#0033cc" />
+<text x="214.853" y="149.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="45.147" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="64.853" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="86.066" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="107.279" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="128.492" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="149.706" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="170.919" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="192.132" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="213.345" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="234.558" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="255.772" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="276.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="276.985" r="15.000" fill="#333333" />
+<path d="M49.390 73.338 L57.875 81.823 L62.118 77.581 L53.632 69.095 L49.390 73.338 Z" fill="#ff3399"/>
+<path d="M91.816 73.338 L100.302 81.823 L104.544 77.581 L96.059 69.095 L91.816 73.338 Z" fill="#ffccff"/>
+<path d="M49.390 98.794 L53.632 103.037 L62.118 94.551 L57.875 90.309 L49.390 98.794 Z" fill="#ff3399"/>
+<path d="M49.390 73.338 L57.875 81.823 L62.118 77.581 L53.632 69.095 L49.390 73.338 Z" fill="#ff3399"/>
+<path d="M49.390 115.765 L57.875 124.250 L62.118 120.007 L53.632 111.522 L49.390 115.765 Z" fill="#ff3399"/>
+<path d="M49.390 98.794 L53.632 103.037 L62.118 94.551 L57.875 90.309 L49.390 98.794 Z" fill="#ff3399"/>
+<path d="M113.029 77.581 L117.272 81.823 L125.757 73.338 L121.515 69.095 L113.029 77.581 Z" fill="#ffccff"/>
+<path d="M113.029 94.551 L121.515 103.037 L125.757 98.794 L117.272 90.309 L113.029 94.551 Z" fill="#ffccff"/>
+<path d="M91.816 73.338 L100.302 81.823 L104.544 77.581 L96.059 69.095 L91.816 73.338 Z" fill="#ffccff"/>
+<path d="M113.029 77.581 L117.272 81.823 L125.757 73.338 L121.515 69.095 L113.029 77.581 Z" fill="#ffccff"/>
+<path d="M49.390 141.220 L53.632 145.463 L62.118 136.978 L57.875 132.735 L49.390 141.220 Z" fill="#ff3399"/>
+<path d="M49.390 115.765 L57.875 124.250 L62.118 120.007 L53.632 111.522 L49.390 115.765 Z" fill="#ff3399"/>
+<path d="M49.390 141.220 L53.632 145.463 L62.118 136.978 L57.875 132.735 L49.390 141.220 Z" fill="#ff3399"/>
+<path d="M155.456 77.581 L159.698 81.823 L168.184 73.338 L163.941 69.095 L155.456 77.581 Z" fill="#0033cc"/>
+<path d="M155.456 94.551 L163.941 103.037 L168.184 98.794 L159.698 90.309 L155.456 94.551 Z" fill="#0033cc"/>
+<path d="M155.456 77.581 L159.698 81.823 L168.184 73.338 L163.941 69.095 L155.456 77.581 Z" fill="#0033cc"/>
+<path d="M134.243 115.765 L142.728 124.250 L146.971 120.007 L138.485 111.522 L134.243 115.765 Z" fill="#ffccff"/>
+<path d="M113.029 94.551 L121.515 103.037 L125.757 98.794 L117.272 90.309 L113.029 94.551 Z" fill="#ffccff"/>
+<path d="M197.882 77.581 L202.125 81.823 L210.610 73.338 L206.368 69.095 L197.882 77.581 Z" fill="#ffffff"/>
+<path d="M197.882 94.551 L206.368 103.037 L210.610 98.794 L202.125 90.309 L197.882 94.551 Z" fill="#ffffff"/>
+<path d="M197.882 77.581 L202.125 81.823 L210.610 73.338 L206.368 69.095 L197.882 77.581 Z" fill="#ffffff"/>
+<path d="M176.669 115.765 L185.154 124.250 L189.397 120.007 L180.912 111.522 L176.669 115.765 Z" fill="#0033cc"/>
+<path d="M155.456 94.551 L163.941 103.037 L168.184 98.794 L159.698 90.309 L155.456 94.551 Z" fill="#0033cc"/>
+<path d="M134.243 115.765 L142.728 124.250 L146.971 120.007 L138.485 111.522 L134.243 115.765 Z" fill="#ffccff"/>
+<path d="M197.882 94.551 L206.368 103.037 L210.610 98.794 L202.125 90.309 L197.882 94.551 Z" fill="#ffffff"/>
+<path d="M197.882 136.978 L206.368 145.463 L210.610 141.220 L202.125 132.735 L197.882 136.978 Z" fill="#0033cc"/>
+<path d="M176.669 115.765 L185.154 124.250 L189.397 120.007 L180.912 111.522 L176.669 115.765 Z" fill="#0033cc"/>
+<path d="M197.882 136.978 L206.368 145.463 L210.610 141.220 L202.125 132.735 L197.882 136.978 Z" fill="#0033cc"/>
+<circle cx="45.147" cy="64.853" r="11.000" fill="#ff3399" />
+<text x="45.147" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="87.574" cy="64.853" r="11.000" fill="#ffccff" />
+<text x="87.574" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="66.360" cy="86.066" r="11.000" fill="#ff3399" />
+<text x="66.360" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="107.279" r="11.000" fill="#ff3399" />
+<text x="45.147" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="130.000" cy="64.853" r="11.000" fill="#ffccff" />
+<text x="130.000" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="108.787" cy="86.066" r="11.000" fill="#ffccff" />
+<text x="108.787" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="66.360" cy="128.492" r="11.000" fill="#ff3399" />
+<text x="66.360" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="149.706" r="11.000" fill="#ff3399" />
+<text x="45.147" y="149.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="172.426" cy="64.853" r="11.000" fill="#0033cc" />
+<text x="172.426" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="86.066" r="11.000" fill="#0033cc" />
+<text x="151.213" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="130.000" cy="107.279" r="11.000" fill="#ffccff" />
+<text x="130.000" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="214.853" cy="64.853" r="11.000" fill="#ffffff" />
+<text x="214.853" y="64.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="86.066" r="11.000" fill="#ffffff" />
+<text x="193.640" y="86.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="172.426" cy="107.279" r="11.000" fill="#0033cc" />
+<text x="172.426" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="128.492" r="11.000" fill="#ffccff" />
+<text x="151.213" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="214.853" cy="107.279" r="11.000" fill="#ffffff" />
+<text x="214.853" y="107.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="128.492" r="11.000" fill="#0033cc" />
+<text x="193.640" y="128.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="214.853" cy="149.706" r="11.000" fill="#0033cc" />
+<text x="214.853" y="149.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="45.147" cy="384.853" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="384.853" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="406.066" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="427.279" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="384.853" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="406.066" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="427.279" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="448.492" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="469.706" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="384.853" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="406.066" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="427.279" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="448.492" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="469.706" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="490.919" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="512.132" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="384.853" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="406.066" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="427.279" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="448.492" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="469.706" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="490.919" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="512.132" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="533.345" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="554.558" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="427.279" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="448.492" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="469.706" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="490.919" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="512.132" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="533.345" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="554.558" r="15.000" fill="#333333" />
+<circle cx="66.360" cy="575.772" r="15.000" fill="#333333" />
+<circle cx="45.147" cy="596.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="469.706" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="490.919" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="512.132" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="533.345" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="554.558" r="15.000" fill="#333333" />
+<circle cx="108.787" cy="575.772" r="15.000" fill="#333333" />
+<circle cx="87.574" cy="596.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="512.132" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="533.345" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="554.558" r="15.000" fill="#333333" />
+<circle cx="151.213" cy="575.772" r="15.000" fill="#333333" />
+<circle cx="130.000" cy="596.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="554.558" r="15.000" fill="#333333" />
+<circle cx="193.640" cy="575.772" r="15.000" fill="#333333" />
+<circle cx="172.426" cy="596.985" r="15.000" fill="#333333" />
+<circle cx="214.853" cy="596.985" r="15.000" fill="#333333" />
+<path d="M49.390 393.338 L57.875 401.823 L62.118 397.581 L53.632 389.095 L49.390 393.338 Z" fill="#ff3399"/>
+<path d="M91.816 393.338 L100.302 401.823 L104.544 397.581 L96.059 389.095 L91.816 393.338 Z" fill="#ffccff"/>
+<path d="M49.390 418.794 L53.632 423.037 L62.118 414.551 L57.875 410.309 L49.390 418.794 Z" fill="#ff3399"/>
+<path d="M49.390 393.338 L57.875 401.823 L62.118 397.581 L53.632 389.095 L49.390 393.338 Z" fill="#ff3399"/>
+<path d="M49.390 435.765 L57.875 444.250 L62.118 440.007 L53.632 431.522 L49.390 435.765 Z" fill="#ff3399"/>
+<path d="M49.390 418.794 L53.632 423.037 L62.118 414.551 L57.875 410.309 L49.390 418.794 Z" fill="#ff3399"/>
+<path d="M113.029 397.581 L117.272 401.823 L125.757 393.338 L121.515 389.095 L113.029 397.581 Z" fill="#ffccff"/>
+<path d="M113.029 414.551 L121.515 423.037 L125.757 418.794 L117.272 410.309 L113.029 414.551 Z" fill="#ffccff"/>
+<path d="M91.816 393.338 L100.302 401.823 L104.544 397.581 L96.059 389.095 L91.816 393.338 Z" fill="#ffccff"/>
+<path d="M113.029 397.581 L117.272 401.823 L125.757 393.338 L121.515 389.095 L113.029 397.581 Z" fill="#ffccff"/>
+<path d="M91.816 435.765 L100.302 444.250 L104.544 440.007 L96.059 431.522 L91.816 435.765 Z" fill="#66ccff"/>
+<path d="M49.390 461.220 L53.632 465.463 L62.118 456.978 L57.875 452.735 L49.390 461.220 Z" fill="#ff3399"/>
+<path d="M49.390 435.765 L57.875 444.250 L62.118 440.007 L53.632 431.522 L49.390 435.765 Z" fill="#ff3399"/>
+<path d="M49.390 461.220 L53.632 465.463 L62.118 456.978 L57.875 452.735 L49.390 461.220 Z" fill="#ff3399"/>
+<path d="M155.456 397.581 L159.698 401.823 L168.184 393.338 L163.941 389.095 L155.456 397.581 Z" fill="#0033cc"/>
+<path d="M155.456 414.551 L163.941 423.037 L168.184 418.794 L159.698 410.309 L155.456 414.551 Z" fill="#0033cc"/>
+<path d="M155.456 397.581 L159.698 401.823 L168.184 393.338 L163.941 389.095 L155.456 397.581 Z" fill="#0033cc"/>
+<path d="M134.243 435.765 L142.728 444.250 L146.971 440.007 L138.485 431.522 L134.243 435.765 Z" fill="#ffccff"/>
+<path d="M113.029 414.551 L121.515 423.037 L125.757 418.794 L117.272 410.309 L113.029 414.551 Z" fill="#ffccff"/>
+<path d="M113.029 456.978 L121.515 465.463 L125.757 461.220 L117.272 452.735 L113.029 456.978 Z" fill="#66ccff"/>
+<path d="M91.816 435.765 L100.302 444.250 L104.544 440.007 L96.059 431.522 L91.816 435.765 Z" fill="#66ccff"/>
+<path d="M70.603 482.434 L74.846 486.676 L83.331 478.191 L79.088 473.948 L70.603 482.434 Z" fill="#006600"/>
+<path d="M49.390 503.647 L53.632 507.889 L62.118 499.404 L57.875 495.161 L49.390 503.647 Z" fill="#006600"/>
+<path d="M70.603 482.434 L74.846 486.676 L83.331 478.191 L79.088 473.948 L70.603 482.434 Z" fill="#006600"/>
+<path d="M49.390 520.617 L57.875 529.103 L62.118 524.860 L53.632 516.375 L49.390 520.617 Z" fill="#006600"/>
+<path d="M49.390 503.647 L53.632 507.889 L62.118 499.404 L57.875 495.161 L49.390 503.647 Z" fill="#006600"/>
+<path d="M197.882 397.581 L202.125 401.823 L210.610 393.338 L206.368 389.095 L197.882 397.581 Z" fill="#ffffff"/>
+<path d="M197.882 414.551 L206.368 423.037 L210.610 418.794 L202.125 410.309 L197.882 414.551 Z" fill="#ffffff"/>
+<path d="M197.882 397.581 L202.125 401.823 L210.610 393.338 L206.368 389.095 L197.882 397.581 Z" fill="#ffffff"/>
+<path d="M176.669 435.765 L185.154 444.250 L189.397 440.007 L180.912 431.522 L176.669 435.765 Z" fill="#0033cc"/>
+<path d="M155.456 414.551 L163.941 423.037 L168.184 418.794 L159.698 410.309 L155.456 414.551 Z" fill="#0033cc"/>
+<path d="M134.243 435.765 L142.728 444.250 L146.971 440.007 L138.485 431.522 L134.243 435.765 Z" fill="#ffccff"/>
+<path d="M113.029 482.434 L117.272 486.676 L125.757 478.191 L121.515 473.948 L113.029 482.434 Z" fill="#66ccff"/>
+<path d="M113.029 456.978 L121.515 465.463 L125.757 461.220 L117.272 452.735 L113.029 456.978 Z" fill="#66ccff"/>
+<path d="M91.816 503.647 L96.059 507.889 L104.544 499.404 L100.302 495.161 L91.816 503.647 Z" fill="#66ccff"/>
+<path d="M113.029 482.434 L117.272 486.676 L125.757 478.191 L121.515 473.948 L113.029 482.434 Z" fill="#66ccff"/>
+<path d="M91.816 503.647 L96.059 507.889 L104.544 499.404 L100.302 495.161 L91.816 503.647 Z" fill="#66ccff"/>
+<path d="M49.390 546.073 L53.632 550.316 L62.118 541.831 L57.875 537.588 L49.390 546.073 Z" fill="#006600"/>
+<path d="M49.390 520.617 L57.875 529.103 L62.118 524.860 L53.632 516.375 L49.390 520.617 Z" fill="#006600"/>
+<path d="M49.390 546.073 L53.632 550.316 L62.118 541.831 L57.875 537.588 L49.390 546.073 Z" fill="#006600"/>
+<path d="M197.882 414.551 L206.368 423.037 L210.610 418.794 L202.125 410.309 L197.882 414.551 Z" fill="#ffffff"/>
+<path d="M197.882 456.978 L206.368 465.463 L210.610 461.220 L202.125 452.735 L197.882 456.978 Z" fill="#0033cc"/>
+<path d="M176.669 435.765 L185.154 444.250 L189.397 440.007 L180.912 431.522 L176.669 435.765 Z" fill="#0033cc"/>
+<path d="M155.456 482.434 L159.698 486.676 L168.184 478.191 L163.941 473.948 L155.456 482.434 Z" fill="#6600cc"/>
+<path d="M134.243 503.647 L138.485 507.889 L146.971 499.404 L142.728 495.161 L134.243 503.647 Z" fill="#6600cc"/>
+<path d="M155.456 482.434 L159.698 486.676 L168.184 478.191 L163.941 473.948 L155.456 482.434 Z" fill="#6600cc"/>
+<path d="M113.029 524.860 L117.272 529.103 L125.757 520.617 L121.515 516.375 L113.029 524.860 Z" fill="#6600cc"/>
+<path d="M134.243 503.647 L138.485 507.889 L146.971 499.404 L142.728 495.161 L134.243 503.647 Z" fill="#6600cc"/>
+<path d="M113.029 524.860 L117.272 529.103 L125.757 520.617 L121.515 516.375 L113.029 524.860 Z" fill="#6600cc"/>
+<path d="M70.603 567.286 L74.846 571.529 L83.331 563.044 L79.088 558.801 L70.603 567.286 Z" fill="#99cc00"/>
+<path d="M70.603 584.257 L79.088 592.742 L83.331 588.500 L74.846 580.014 L70.603 584.257 Z" fill="#99cc00"/>
+<path d="M49.390 588.500 L53.632 592.742 L62.118 584.257 L57.875 580.014 L49.390 588.500 Z" fill="#99cc00"/>
+<path d="M70.603 567.286 L74.846 571.529 L83.331 563.044 L79.088 558.801 L70.603 567.286 Z" fill="#99cc00"/>
+<path d="M49.390 588.500 L53.632 592.742 L62.118 584.257 L57.875 580.014 L49.390 588.500 Z" fill="#99cc00"/>
+<path d="M197.882 456.978 L206.368 465.463 L210.610 461.220 L202.125 452.735 L197.882 456.978 Z" fill="#0033cc"/>
+<path d="M197.882 499.404 L206.368 507.889 L210.610 503.647 L202.125 495.161 L197.882 499.404 Z" fill="#fdd807"/>
+<path d="M176.669 503.647 L180.912 507.889 L189.397 499.404 L185.154 495.161 L176.669 503.647 Z" fill="#fdd807"/>
+<path d="M155.456 524.860 L159.698 529.103 L168.184 520.617 L163.941 516.375 L155.456 524.860 Z" fill="#fdd807"/>
+<path d="M176.669 503.647 L180.912 507.889 L189.397 499.404 L185.154 495.161 L176.669 503.647 Z" fill="#fdd807"/>
+<path d="M155.456 541.831 L163.941 550.316 L168.184 546.073 L159.698 537.588 L155.456 541.831 Z" fill="#fdd807"/>
+<path d="M155.456 524.860 L159.698 529.103 L168.184 520.617 L163.941 516.375 L155.456 524.860 Z" fill="#fdd807"/>
+<path d="M134.243 563.044 L142.728 571.529 L146.971 567.286 L138.485 558.801 L134.243 563.044 Z" fill="#e62e00"/>
+<path d="M113.029 567.286 L117.272 571.529 L125.757 563.044 L121.515 558.801 L113.029 567.286 Z" fill="#e62e00"/>
+<path d="M113.029 584.257 L121.515 592.742 L125.757 588.500 L117.272 580.014 L113.029 584.257 Z" fill="#e62e00"/>
+<path d="M113.029 567.286 L117.272 571.529 L125.757 563.044 L121.515 558.801 L113.029 567.286 Z" fill="#e62e00"/>
+<path d="M70.603 584.257 L79.088 592.742 L83.331 588.500 L74.846 580.014 L70.603 584.257 Z" fill="#99cc00"/>
+<path d="M197.882 499.404 L206.368 507.889 L210.610 503.647 L202.125 495.161 L197.882 499.404 Z" fill="#fdd807"/>
+<path d="M197.882 541.831 L206.368 550.316 L210.610 546.073 L202.125 537.588 L197.882 541.831 Z" fill="#994d00"/>
+<path d="M155.456 541.831 L163.941 550.316 L168.184 546.073 L159.698 537.588 L155.456 541.831 Z" fill="#fdd807"/>
+<path d="M155.456 584.257 L163.941 592.742 L168.184 588.500 L159.698 580.014 L155.456 584.257 Z" fill="#e62e00"/>
+<path d="M134.243 588.500 L138.485 592.742 L146.971 584.257 L142.728 580.014 L134.243 588.500 Z" fill="#e62e00"/>
+<path d="M134.243 563.044 L142.728 571.529 L146.971 567.286 L138.485 558.801 L134.243 563.044 Z" fill="#e62e00"/>
+<path d="M113.029 584.257 L121.515 592.742 L125.757 588.500 L117.272 580.014 L113.029 584.257 Z" fill="#e62e00"/>
+<path d="M134.243 588.500 L138.485 592.742 L146.971 584.257 L142.728 580.014 L134.243 588.500 Z" fill="#e62e00"/>
+<path d="M197.882 567.286 L202.125 571.529 L210.610 563.044 L206.368 558.801 L197.882 567.286 Z" fill="#994d00"/>
+<path d="M197.882 541.831 L206.368 550.316 L210.610 546.073 L202.125 537.588 L197.882 541.831 Z" fill="#994d00"/>
+<path d="M197.882 584.257 L206.368 592.742 L210.610 588.500 L202.125 580.014 L197.882 584.257 Z" fill="#994d00"/>
+<path d="M197.882 567.286 L202.125 571.529 L210.610 563.044 L206.368 558.801 L197.882 567.286 Z" fill="#994d00"/>
+<path d="M155.456 584.257 L163.941 592.742 L168.184 588.500 L159.698 580.014 L155.456 584.257 Z" fill="#e62e00"/>
+<path d="M197.882 584.257 L206.368 592.742 L210.610 588.500 L202.125 580.014 L197.882 584.257 Z" fill="#994d00"/>
+<circle cx="45.147" cy="384.853" r="11.000" fill="#ff3399" />
+<text x="45.147" y="384.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="87.574" cy="384.853" r="11.000" fill="#ffccff" />
+<text x="87.574" y="384.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="66.360" cy="406.066" r="11.000" fill="#ff3399" />
+<text x="66.360" y="406.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="427.279" r="11.000" fill="#ff3399" />
+<text x="45.147" y="427.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="130.000" cy="384.853" r="11.000" fill="#ffccff" />
+<text x="130.000" y="384.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="108.787" cy="406.066" r="11.000" fill="#ffccff" />
+<text x="108.787" y="406.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="87.574" cy="427.279" r="11.000" fill="#66ccff" />
+<text x="87.574" y="427.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">G</text>
+<circle cx="66.360" cy="448.492" r="11.000" fill="#ff3399" />
+<text x="66.360" y="448.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="45.147" cy="469.706" r="11.000" fill="#ff3399" />
+<text x="45.147" y="469.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">H</text>
+<circle cx="172.426" cy="384.853" r="11.000" fill="#0033cc" />
+<text x="172.426" y="384.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="406.066" r="11.000" fill="#0033cc" />
+<text x="151.213" y="406.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="130.000" cy="427.279" r="11.000" fill="#ffccff" />
+<text x="130.000" y="427.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="108.787" cy="448.492" r="11.000" fill="#66ccff" />
+<text x="108.787" y="448.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">G</text>
+<circle cx="87.574" cy="469.706" r="11.000" fill="#006600" />
+<text x="87.574" y="469.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">E</text>
+<circle cx="66.360" cy="490.919" r="11.000" fill="#006600" />
+<text x="66.360" y="490.919" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">E</text>
+<circle cx="45.147" cy="512.132" r="11.000" fill="#006600" />
+<text x="45.147" y="512.132" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">E</text>
+<circle cx="214.853" cy="384.853" r="11.000" fill="#ffffff" />
+<text x="214.853" y="384.853" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="406.066" r="11.000" fill="#ffffff" />
+<text x="193.640" y="406.066" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="172.426" cy="427.279" r="11.000" fill="#0033cc" />
+<text x="172.426" y="427.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="151.213" cy="448.492" r="11.000" fill="#ffccff" />
+<text x="151.213" y="448.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">D</text>
+<circle cx="130.000" cy="469.706" r="11.000" fill="#66ccff" />
+<text x="130.000" y="469.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">G</text>
+<circle cx="108.787" cy="490.919" r="11.000" fill="#66ccff" />
+<text x="108.787" y="490.919" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">G</text>
+<circle cx="87.574" cy="512.132" r="11.000" fill="#66ccff" />
+<text x="87.574" y="512.132" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">G</text>
+<circle cx="66.360" cy="533.345" r="11.000" fill="#006600" />
+<text x="66.360" y="533.345" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">E</text>
+<circle cx="45.147" cy="554.558" r="11.000" fill="#006600" />
+<text x="45.147" y="554.558" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">E</text>
+<circle cx="214.853" cy="427.279" r="11.000" fill="#ffffff" />
+<text x="214.853" y="427.279" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">F</text>
+<circle cx="193.640" cy="448.492" r="11.000" fill="#0033cc" />
+<text x="193.640" y="448.492" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="172.426" cy="469.706" r="11.000" fill="#6600cc" />
+<text x="172.426" y="469.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">J</text>
+<circle cx="151.213" cy="490.919" r="11.000" fill="#6600cc" />
+<text x="151.213" y="490.919" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">J</text>
+<circle cx="130.000" cy="512.132" r="11.000" fill="#6600cc" />
+<text x="130.000" y="512.132" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">J</text>
+<circle cx="108.787" cy="533.345" r="11.000" fill="#6600cc" />
+<text x="108.787" y="533.345" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">J</text>
+<circle cx="87.574" cy="554.558" r="11.000" fill="#99cc00" />
+<text x="87.574" y="554.558" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">S</text>
+<circle cx="66.360" cy="575.772" r="11.000" fill="#99cc00" />
+<text x="66.360" y="575.772" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">S</text>
+<circle cx="45.147" cy="596.985" r="11.000" fill="#99cc00" />
+<text x="45.147" y="596.985" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">S</text>
+<circle cx="214.853" cy="469.706" r="11.000" fill="#0033cc" />
+<text x="214.853" y="469.706" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">C</text>
+<circle cx="193.640" cy="490.919" r="11.000" fill="#fdd807" />
+<text x="193.640" y="490.919" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">I</text>
+<circle cx="172.426" cy="512.132" r="11.000" fill="#fdd807" />
+<text x="172.426" y="512.132" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">I</text>
+<circle cx="151.213" cy="533.345" r="11.000" fill="#fdd807" />
+<text x="151.213" y="533.345" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">I</text>
+<circle cx="130.000" cy="554.558" r="11.000" fill="#e62e00" />
+<text x="130.000" y="554.558" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">B</text>
+<circle cx="108.787" cy="575.772" r="11.000" fill="#e62e00" />
+<text x="108.787" y="575.772" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">B</text>
+<circle cx="87.574" cy="596.985" r="11.000" fill="#99cc00" />
+<text x="87.574" y="596.985" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">S</text>
+<circle cx="214.853" cy="512.132" r="11.000" fill="#fdd807" />
+<text x="214.853" y="512.132" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">I</text>
+<circle cx="193.640" cy="533.345" r="11.000" fill="#994d00" />
+<text x="193.640" y="533.345" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">R</text>
+<circle cx="172.426" cy="554.558" r="11.000" fill="#fdd807" />
+<text x="172.426" y="554.558" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">I</text>
+<circle cx="151.213" cy="575.772" r="11.000" fill="#e62e00" />
+<text x="151.213" y="575.772" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">B</text>
+<circle cx="130.000" cy="596.985" r="11.000" fill="#e62e00" />
+<text x="130.000" y="596.985" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">B</text>
+<circle cx="214.853" cy="554.558" r="11.000" fill="#994d00" />
+<text x="214.853" y="554.558" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">R</text>
+<circle cx="193.640" cy="575.772" r="11.000" fill="#994d00" />
+<text x="193.640" y="575.772" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">R</text>
+<circle cx="172.426" cy="596.985" r="11.000" fill="#e62e00" />
+<text x="172.426" y="596.985" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">B</text>
+<circle cx="214.853" cy="596.985" r="11.000" fill="#994d00" />
+<text x="214.853" y="596.985" text-anchor="middle" alignment-baseline="middle" font-size="1.000em" font-family="Arial, Helvetica, sans-serif">R</text>
+<text x="32.000" y="25.000" text-anchor="start" alignment-baseline="middle" font-size="1.5em" font-family="Arial, Helvetica, sans-serif">Problem</text>
+<text x="32.000" y="345.000" text-anchor="start" alignment-baseline="middle" font-size="1.5em" font-family="Arial, Helvetica, sans-serif">Solution</text>
+<text x="265.000" y="395.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">4 solutions in total</text>
+<text x="265.000" y="420.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Difficulty: 116</text>
+<text x="265.000" y="445.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Computation time: 0:00:02.323 in total</text>
+<text x="265.000" y="470.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Computation time: 0:00:00.581 per solution</text>
+<text x="265.000" y="495.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Fixed pieces: 4</text>
+<text x="265.000" y="520.000" text-anchor="start" alignment-baseline="middle" font-size="1em" font-family="Arial, Helvetica, sans-serif">Fixed blocks: 18</text>
+</svg>
