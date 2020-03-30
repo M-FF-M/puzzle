@@ -1,0 +1,11 @@
+11                        // number of pieces
+4 n y S                   // number of blocks in piece, needs mirroring (y/n), needs 180 rotation (y/n), ID letter
+1 0   1 -1   1 1          // blocks (apart from 0 0) given by x- and y-coordinates
+#99cc00                   // color
+5 y y B
+1 0   2 0   1 1   2 1
+#e62e00
+4 y n R
+1 0   1 1   2 1
+#994d00
+...
