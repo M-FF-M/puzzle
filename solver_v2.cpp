@@ -12,12 +12,34 @@ typedef pair<int, int> ii;
 typedef pair<ii, int> iii;
 typedef pair<ii, ii> iiii;
 
-int solcnt = 0;
+int solcnt = 0, actposcheck = 0;
 long long totpos = 0, checkedpos = 0, lastwpos = 0, addcnt[1000];
+long long starttime = 0;
 stringstream solstr;
+stringstream soltxtstr;
 map<int, string> color_map;
 map<int, char> id_map;
 const set<iii> EMPTY_SET;
+
+long long get_ms() {
+  return (long long) (chrono::system_clock::now().time_since_epoch() / chrono::milliseconds(1));
+}
+
+string to_num(long long num, int num_zeroes = 2) {
+  stringstream tonst;
+  tonst << num;
+  string ret = tonst.str();
+  while (ret.size() < num_zeroes)
+    ret = "0" + ret;
+  return ret;
+}
+
+string to_timestr(long long ms) {
+  long long msecs = ms % 1000; ms /= 1000;
+  long long secs = ms % 60; ms /= 60;
+  long long mins = ms % 60; ms /= 60;
+  return to_num(ms, 1) + ":" + to_num(mins) + ":" + to_num(secs) + "." + to_num(msecs, 3);
+}
 
 vector<ii> rotate_blocks(const vector<ii>& blocks, int rotby) {
   vector<ii> ret;
@@ -216,78 +238,91 @@ void print_state(stringstream& sstr, const board& b, double ox, double oy, doubl
   }
 }
 
-bool rec_solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& piece_map, int piece_idx, set<iii>::iterator& pos) {
+void print_state_txt(stringstream& sstr, const board& b) {
+  for (int y = 0; y < b.height; y++) {
+    for (int x = 0; x < b.width; x++) {
+      if (b.content[x][y] == -1) sstr << "#";
+      else if (b.content[x][y] == 0) sstr << ".";
+      else if (b.content[x][y] > 0) sstr << id_map[b.content[x][y]];
+    }
+    sstr << endl;
+  }
+  sstr << endl;
+}
+
+bool rec_solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& piece_map, int piece_idx) {
   if (piece_idx >= pieces.size()) {
     print_state(solstr, b, 20.0 + solcnt * (10.0 + b.width * 30.0), 30.0 + b.height * 30.0, 1.0);
+    print_state_txt(soltxtstr, b);
     solcnt++;
     checkedpos++;
     return true;
   }
   piece& cpiece = pieces[piece_idx];
-  // set<iii>::iterator pos = cpiece.cpos.begin();
-  // advance(pos, pos_idx);
-  if (pos == cpiece.cpos.end()) return false;
+  set<iii>::iterator pos = cpiece.cpos.begin();
+  if (cpiece.cpos.size() < cpiece.pos.size())
+    checkedpos += (cpiece.pos.size() - cpiece.cpos.size()) * addcnt[piece_idx + 1];
 
-  if (pos == cpiece.cpos.begin() && pieces[piece_idx].cpos.size() < pieces[piece_idx].pos.size())
-    checkedpos += (pieces[piece_idx].pos.size() - pieces[piece_idx].cpos.size()) * addcnt[piece_idx + 1];
+  bool solved = false;
+  while (pos != cpiece.cpos.end() && (!solved || find_all_sol)) {
+    int x = (*pos).GET_X;
+    int y = (*pos).GET_Y;
+    int idx = (*pos).GET_NUM;
+    const vector<ii>& blocks = cpiece.all_orient[idx];
 
-  int x = (*pos).GET_X;
-  int y = (*pos).GET_Y;
-  int idx = (*pos).GET_NUM;
-  const vector<ii>& blocks = cpiece.all_orient[idx];
+    bool solvable = true;
+    set<iiii> erased;
 
-  bool solvable = true, solved = false;
-  set<iiii> erased;
-
-  for (int j = 0; j < blocks.size(); j++) {
-    int x2 = x + blocks[j].first;
-    int y2 = y + blocks[j].second;
-    b.content[x2][y2] = cpiece.id;
-    for (const iiii& item : b.cposmap[x2][y2]) {
-      if (piece_map[item.GET_PIECE] > piece_idx) {
-        iii pitem = iii(ii(item.GET_X, item.GET_Y), item.GET_NUM_B);
-        if (pieces[ piece_map[item.GET_PIECE] ].cpos.find(pitem) != pieces[ piece_map[item.GET_PIECE] ].cpos.end()) {
-          pieces[ piece_map[item.GET_PIECE] ].cpos.erase(pitem);
-          if (pieces[ piece_map[item.GET_PIECE] ].cpos.size() == 0)
-            solvable = false;
-          erased.insert(item);
+    for (int j = 0; j < blocks.size(); j++) {
+      int x2 = x + blocks[j].first;
+      int y2 = y + blocks[j].second;
+      b.content[x2][y2] = cpiece.id;
+      for (const iiii& item : b.cposmap[x2][y2]) {
+        if (piece_map[item.GET_PIECE] > piece_idx) {
+          iii pitem = iii(ii(item.GET_X, item.GET_Y), item.GET_NUM_B);
+          if (pieces[ piece_map[item.GET_PIECE] ].cpos.find(pitem) != pieces[ piece_map[item.GET_PIECE] ].cpos.end()) {
+            pieces[ piece_map[item.GET_PIECE] ].cpos.erase(pitem);
+            if (pieces[ piece_map[item.GET_PIECE] ].cpos.size() == 0)
+              solvable = false;
+            erased.insert(item);
+          }
         }
       }
     }
+    actposcheck++;
+
+    if (solvable)
+      solved = rec_solve(find_all_sol, b, pieces, piece_map, piece_idx + 1) || solved;
+    else
+      checkedpos += addcnt[piece_idx + 1];
+    
+    for (int j = 0; j < blocks.size(); j++) {
+      int x2 = x + blocks[j].first;
+      int y2 = y + blocks[j].second;
+      b.content[x2][y2] = 0;
+    }
+    for (const iiii& item : erased) {
+      pieces[ piece_map[item.GET_PIECE] ].cpos.insert( iii(ii(item.GET_X, item.GET_Y), item.GET_NUM_B) );
+    }
+
+    if (checkedpos - lastwpos > totpos / 10000) {
+      cout << "\rProgress: " << fixed << setprecision(1) << (100.0 * checkedpos / totpos) << "%";
+      if (solcnt == 1) cout << " (1 solution)";
+      else if (solcnt > 1) cout << " (" << solcnt << " solutions)";
+      lastwpos = checkedpos;
+      long long pred_time = (long long) round((get_ms() - starttime) * (1.0 * totpos / checkedpos - 1.0));
+      cout << " -- " << to_timestr(pred_time) << " remaining               ";
+    }
+    ++pos;
   }
 
-  if (solvable) {
-    set<iii>::iterator iter = pieces[piece_idx + 1].cpos.begin();
-    solved = rec_solve(find_all_sol, b, pieces, piece_map, piece_idx + 1, iter);
-  } else {
-    checkedpos += addcnt[piece_idx + 1];
-  }
-  
-  for (int j = 0; j < blocks.size(); j++) {
-    int x2 = x + blocks[j].first;
-    int y2 = y + blocks[j].second;
-    b.content[x2][y2] = 0;
-  }
-  for (const iiii& item : erased) {
-    pieces[ piece_map[item.GET_PIECE] ].cpos.insert( iii(ii(item.GET_X, item.GET_Y), item.GET_NUM_B) );
-  }
-
-  if (checkedpos - lastwpos > 1000) {
-    cout << "\rProgress: " << fixed << setprecision(1) << (100.0 * checkedpos / totpos) << "%";
-    if (solcnt == 1) cout << " (1 solution)";
-    else if (solcnt > 1) cout << " (" << solcnt << " solutions)";
-    lastwpos = checkedpos;
-  }
-
-  if (!solved || find_all_sol)
-    return rec_solve(find_all_sol, b, pieces, piece_map, piece_idx, ++pos) || solved;
-  else
-    return solved;
+  return solved;
 }
 
-void solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& piece_map, string out_file) {
-  solcnt = 0;
-  solstr.clear();
+void solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& piece_map, string out_file, bool text_out = false) {
+  starttime = get_ms();
+  solcnt = 0; actposcheck = 0;
+  solstr.clear(); soltxtstr.clear();
   addcnt[pieces.size()] = 1;
   totpos = 1; checkedpos = 0; lastwpos = 0;
   for (int i = pieces.size() - 1; i >= 0; i--)
@@ -298,9 +333,13 @@ void solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& pi
     totpos *= pieces[i].cpos.size();
   }
   cout << endl;
-  set<iii>::iterator iter = pieces[0].cpos.begin();
-  bool foundsol = rec_solve(find_all_sol, b, pieces, piece_map, 0, iter);
-  cout << "\rCalculation completed. Checked " << checkedpos << " out of " << totpos << " positions (" << fixed << setprecision(1) << (100.0 * checkedpos / totpos) << "%)." << endl;
+  bool foundsol = rec_solve(find_all_sol, b, pieces, piece_map, 0);
+  cout << "\rCalculation completed.                                                "
+    << endl << "-> Checked " << checkedpos << " out of " << totpos << " positions (" << fixed << setprecision(1) << (100.0 * checkedpos / totpos) << "%)"
+    << endl << "-> Actual positions checked: " << actposcheck << endl;
+  long long time_needed = get_ms() - starttime;
+  cout << "-> Required time: " << to_timestr(time_needed) << " (" << ((int) round(1000.0 * actposcheck / time_needed)) << " positions per second / "
+    << to_timestr((long long) round(1.0 * time_needed / solcnt)) << " per solution)" << endl;
   if (find_all_sol) {
     if (foundsol) {
       if (solcnt == 1)
@@ -316,13 +355,23 @@ void solve(bool find_all_sol, board& b, vector<piece>& pieces, map<int, int>& pi
       cout << "Unsolvable!" << endl;
   }
   ofstream fout(out_file);
-  fout << fixed << setprecision(3) << endl;
-  fout << "<svg version=\"1.1\" baseProfile=\"full\" width=\"" << (max(1, solcnt) * (10.0 + b.width * 30.0)) << "\" height=\"" << ((1 + min(1, solcnt)) * (10.0 + b.height * 30.0)) << "\" xmlns=\"http://www.w3.org/2000/svg\">" << endl;
-  stringstream cstate;
-  print_state(cstate, b, 20, 20, 1);
-  fout << cstate.str();
-  fout << solstr.str();
-  fout << "</svg>" << endl;
+  fout << fixed << setprecision(3);
+  if (!text_out) {
+    fout << "<svg version=\"1.1\" baseProfile=\"full\" width=\"" << (max(1, solcnt) * (10.0 + b.width * 30.0)) << "\" height=\"" << ((1 + min(1, solcnt)) * (10.0 + b.height * 30.0)) << "\" xmlns=\"http://www.w3.org/2000/svg\">" << endl;
+    stringstream cstate;
+    print_state(cstate, b, 20, 20, 1);
+    fout << cstate.str();
+    fout << solstr.str();
+    fout << "</svg>" << endl;
+  } else {
+    fout << b.width << " " << b.height << endl;
+    stringstream cstate;
+    print_state_txt(cstate, b);
+    fout << cstate.str();
+    fout << time_needed << endl;
+    fout << solcnt << endl;
+    fout << soltxtstr.str();
+  }
   fout.close();
 }
 
@@ -330,16 +379,32 @@ int main(int argc, char** argv) {
   string piece_in = "pieces.txt";
   string puzzle_in = "board.txt";
   bool find_all_sol = false;
+  bool text_out = false;
   if (argc >= 2) puzzle_in = argv[1];
   if (argc >= 3) piece_in = argv[2];
   if (argc >= 4) {
     if (argv[3][0] == 'y') find_all_sol = true;
   }
+  if (argc >= 5) {
+    if (argv[4][0] == 'y') text_out = true;
+  }
   string puzzle_out = puzzle_in.substr(0, puzzle_in.size() - 4) + "-sol.svg";
+  if (text_out) {
+    char file_sep = '\\';
+    int dir_idx = 0;
+    for (int i = puzzle_in.size() - 1; i >= 0; i--) {
+      if (puzzle_in[i] == '/' || puzzle_in[i] == '\\') {
+        file_sep = puzzle_in[i];
+        dir_idx = i + 1;
+      }
+    }
+    puzzle_out = puzzle_in.substr(0, dir_idx) + "solutions" + file_sep + puzzle_in.substr(dir_idx, puzzle_in.size() - 4 - dir_idx) + "-sol.txt";
+  }
   cout << "Puzzle solver" << endl << endl;
   cout << "1st argument: board input file -- " << puzzle_in << endl;
   cout << "2nd argument: piece input file -- " << piece_in << endl;
   cout << "3rd argument: whether to find all solutions (y) or just any solution (n) -- " << (find_all_sol ? "y" : "n") << endl;
+  cout << "4th argument: whether to output a text file (y) or a svg file (n) -- " << (text_out ? "y" : "n") << endl;
   cout << "output file -- " << puzzle_out << endl;
 
   board b(puzzle_in);
@@ -365,5 +430,5 @@ int main(int argc, char** argv) {
   sort(pieces_movable.begin(), pieces_movable.end());
   for (int i = 0; i < pieces_movable.size(); i++)
     mov_map[pieces_movable[i].id] = i;
-  solve(find_all_sol, b, pieces_movable, mov_map, puzzle_out);
+  solve(find_all_sol, b, pieces_movable, mov_map, puzzle_out, text_out);
 }
